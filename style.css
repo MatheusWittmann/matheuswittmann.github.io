@@ -1,44 +1,32 @@
-h1 {
+p,h1,h2,h3 {
+  font-family: helvetica;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.header {
   text-align: center;
 }
 
-h3 {
+nav{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  font-family: monospace;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(238, 238, 238);
+}
+
+nav ul {
   text-align: center;
 }
 
-ul {
-  text-align: center;
-  list-style: none;
-}
-
-.first {
-  background-color: rgb(235, 200, 84);
-  font-size: 20px;
-  height: 50px;
-  text-align: center;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.second {
-  background-color: rgb(219, 219, 219);
-  font-size: 20px;
-  height: 50px;
-  text-align: center;
-  width: 300px;
+nav ul li {
   display: inline-block;
-}
-
-.third {
-  background-color: rgb(170, 142, 106);
-  font-size: 20px;
-  height: 50px;
+  width: 30%;
   text-align: center;
-  width: 300px;
-  display: inline-block;
-}
-
-.premiacao ul li{
-  display: inline;
+  font-weight: bold;
+  font-size: 15px;
 }
